@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug
