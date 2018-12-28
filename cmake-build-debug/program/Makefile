@@ -138,32 +138,86 @@ Program/fast:
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/build
 .PHONY : Program/fast
 
-__/library/include/driversrepository.obj: __/library/include/driversrepository.cpp.obj
+__/library/include/clientmanager.obj: __/library/include/clientmanager.cpp.obj
 
-.PHONY : __/library/include/driversrepository.obj
+.PHONY : __/library/include/clientmanager.obj
 
 # target to build an object file
-__/library/include/driversrepository.cpp.obj:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj
-.PHONY : __/library/include/driversrepository.cpp.obj
+__/library/include/clientmanager.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj
+.PHONY : __/library/include/clientmanager.cpp.obj
 
-__/library/include/driversrepository.i: __/library/include/driversrepository.cpp.i
+__/library/include/clientmanager.i: __/library/include/clientmanager.cpp.i
 
-.PHONY : __/library/include/driversrepository.i
+.PHONY : __/library/include/clientmanager.i
 
 # target to preprocess a source file
-__/library/include/driversrepository.cpp.i:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.i
-.PHONY : __/library/include/driversrepository.cpp.i
+__/library/include/clientmanager.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.i
+.PHONY : __/library/include/clientmanager.cpp.i
 
-__/library/include/driversrepository.s: __/library/include/driversrepository.cpp.s
+__/library/include/clientmanager.s: __/library/include/clientmanager.cpp.s
 
-.PHONY : __/library/include/driversrepository.s
+.PHONY : __/library/include/clientmanager.s
 
 # target to generate assembly for a file
-__/library/include/driversrepository.cpp.s:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.s
-.PHONY : __/library/include/driversrepository.cpp.s
+__/library/include/clientmanager.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.s
+.PHONY : __/library/include/clientmanager.cpp.s
+
+__/library/include/driversmanager.obj: __/library/include/driversmanager.cpp.obj
+
+.PHONY : __/library/include/driversmanager.obj
+
+# target to build an object file
+__/library/include/driversmanager.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj
+.PHONY : __/library/include/driversmanager.cpp.obj
+
+__/library/include/driversmanager.i: __/library/include/driversmanager.cpp.i
+
+.PHONY : __/library/include/driversmanager.i
+
+# target to preprocess a source file
+__/library/include/driversmanager.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.i
+.PHONY : __/library/include/driversmanager.cpp.i
+
+__/library/include/driversmanager.s: __/library/include/driversmanager.cpp.s
+
+.PHONY : __/library/include/driversmanager.s
+
+# target to generate assembly for a file
+__/library/include/driversmanager.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.s
+.PHONY : __/library/include/driversmanager.cpp.s
+
+__/library/include/drivesmanager.obj: __/library/include/drivesmanager.cpp.obj
+
+.PHONY : __/library/include/drivesmanager.obj
+
+# target to build an object file
+__/library/include/drivesmanager.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj
+.PHONY : __/library/include/drivesmanager.cpp.obj
+
+__/library/include/drivesmanager.i: __/library/include/drivesmanager.cpp.i
+
+.PHONY : __/library/include/drivesmanager.i
+
+# target to preprocess a source file
+__/library/include/drivesmanager.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.i
+.PHONY : __/library/include/drivesmanager.cpp.i
+
+__/library/include/drivesmanager.s: __/library/include/drivesmanager.cpp.s
+
+.PHONY : __/library/include/drivesmanager.s
+
+# target to generate assembly for a file
+__/library/include/drivesmanager.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.s
+.PHONY : __/library/include/drivesmanager.cpp.s
 
 __/library/src/clientexception.obj: __/library/src/clientexception.cpp.obj
 
@@ -272,6 +326,33 @@ __/library/src/driverexception.s: __/library/src/driverexception.cpp.s
 __/library/src/driverexception.cpp.s:
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.s
 .PHONY : __/library/src/driverexception.cpp.s
+
+__/library/src/driversrepository.obj: __/library/src/driversrepository.cpp.obj
+
+.PHONY : __/library/src/driversrepository.obj
+
+# target to build an object file
+__/library/src/driversrepository.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj
+.PHONY : __/library/src/driversrepository.cpp.obj
+
+__/library/src/driversrepository.i: __/library/src/driversrepository.cpp.i
+
+.PHONY : __/library/src/driversrepository.i
+
+# target to preprocess a source file
+__/library/src/driversrepository.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i
+.PHONY : __/library/src/driversrepository.cpp.i
+
+__/library/src/driversrepository.s: __/library/src/driversrepository.cpp.s
+
+.PHONY : __/library/src/driversrepository.s
+
+# target to generate assembly for a file
+__/library/src/driversrepository.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s
+.PHONY : __/library/src/driversrepository.cpp.s
 
 __/library/src/drivesrepository.obj: __/library/src/drivesrepository.cpp.obj
 
@@ -391,9 +472,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... __/library/include/driversrepository.obj
-	@echo ... __/library/include/driversrepository.i
-	@echo ... __/library/include/driversrepository.s
+	@echo ... __/library/include/clientmanager.obj
+	@echo ... __/library/include/clientmanager.i
+	@echo ... __/library/include/clientmanager.s
+	@echo ... __/library/include/driversmanager.obj
+	@echo ... __/library/include/driversmanager.i
+	@echo ... __/library/include/driversmanager.s
+	@echo ... __/library/include/drivesmanager.obj
+	@echo ... __/library/include/drivesmanager.i
+	@echo ... __/library/include/drivesmanager.s
 	@echo ... __/library/src/clientexception.obj
 	@echo ... __/library/src/clientexception.i
 	@echo ... __/library/src/clientexception.s
@@ -406,6 +493,9 @@ help:
 	@echo ... __/library/src/driverexception.obj
 	@echo ... __/library/src/driverexception.i
 	@echo ... __/library/src/driverexception.s
+	@echo ... __/library/src/driversrepository.obj
+	@echo ... __/library/src/driversrepository.i
+	@echo ... __/library/src/driversrepository.s
 	@echo ... __/library/src/drivesrepository.obj
 	@echo ... __/library/src/drivesrepository.i
 	@echo ... __/library/src/drivesrepository.s

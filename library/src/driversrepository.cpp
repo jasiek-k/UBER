@@ -26,7 +26,13 @@ Driver DriversRepository::find(string name) {
         }
     }
 }
-
+Driver DriversRepository::find(bool busy) {
+    for (Driver driver: Repository::lista) {
+        if (driver.getStatus()== busy) {
+            return driver;
+        }
+    }
+}
 
 string DriversRepository::showInfo() {
     return " driversinfo";

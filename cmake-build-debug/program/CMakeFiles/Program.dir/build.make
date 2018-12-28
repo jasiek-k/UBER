@@ -171,19 +171,61 @@ program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s"
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsrepository.cpp -o CMakeFiles\Program.dir\__\library\src\clientsrepository.cpp.s
 
-program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj: program/CMakeFiles/Program.dir/flags.make
-program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj: program/CMakeFiles/Program.dir/includes_CXX.rsp
-program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj: ../library/include/driversrepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\__\library\include\driversrepository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp
+program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj: program/CMakeFiles/Program.dir/flags.make
+program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj: program/CMakeFiles/Program.dir/includes_CXX.rsp
+program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj: ../library/src/driversrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\__\library\src\driversrepository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversrepository.cpp
 
-program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp > CMakeFiles\Program.dir\__\library\include\driversrepository.cpp.i
+program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversrepository.cpp > CMakeFiles\Program.dir\__\library\src\driversrepository.cpp.i
 
-program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp -o CMakeFiles\Program.dir\__\library\include\driversrepository.cpp.s
+program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversrepository.cpp -o CMakeFiles\Program.dir\__\library\src\driversrepository.cpp.s
+
+program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj: program/CMakeFiles/Program.dir/flags.make
+program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj: program/CMakeFiles/Program.dir/includes_CXX.rsp
+program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj: ../library/include/driversmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\__\library\include\driversmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp
+
+program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp > CMakeFiles\Program.dir\__\library\include\driversmanager.cpp.i
+
+program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp -o CMakeFiles\Program.dir\__\library\include\driversmanager.cpp.s
+
+program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj: program/CMakeFiles/Program.dir/flags.make
+program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj: program/CMakeFiles/Program.dir/includes_CXX.rsp
+program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj: ../library/include/drivesmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\__\library\include\drivesmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp
+
+program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp > CMakeFiles\Program.dir\__\library\include\drivesmanager.cpp.i
+
+program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp -o CMakeFiles\Program.dir\__\library\include\drivesmanager.cpp.s
+
+program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj: program/CMakeFiles/Program.dir/flags.make
+program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj: program/CMakeFiles/Program.dir/includes_CXX.rsp
+program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj: ../library/include/clientmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Program.dir\__\library\include\clientmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp
+
+program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp > CMakeFiles\Program.dir\__\library\include\clientmanager.cpp.i
+
+program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp -o CMakeFiles\Program.dir\__\library\include\clientmanager.cpp.s
 
 # Object files for target Program
 Program_OBJECTS = \
@@ -195,7 +237,10 @@ Program_OBJECTS = \
 "CMakeFiles/Program.dir/__/library/src/repository.cpp.obj" \
 "CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.obj" \
 "CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.obj" \
-"CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj"
+"CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj" \
+"CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj" \
+"CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj" \
+"CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj"
 
 # External object files for target Program
 Program_EXTERNAL_OBJECTS =
@@ -208,13 +253,16 @@ program/Program.exe: program/CMakeFiles/Program.dir/__/library/src/driverexcepti
 program/Program.exe: program/CMakeFiles/Program.dir/__/library/src/repository.cpp.obj
 program/Program.exe: program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.obj
 program/Program.exe: program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.obj
-program/Program.exe: program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj
+program/Program.exe: program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj
+program/Program.exe: program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj
+program/Program.exe: program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj
+program/Program.exe: program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj
 program/Program.exe: program/CMakeFiles/Program.dir/build.make
 program/Program.exe: library/libLibrary.a
 program/Program.exe: program/CMakeFiles/Program.dir/linklibs.rsp
 program/Program.exe: program/CMakeFiles/Program.dir/objects1.rsp
 program/Program.exe: program/CMakeFiles/Program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Program.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Program.exe"
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Program.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

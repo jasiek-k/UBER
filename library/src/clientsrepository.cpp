@@ -31,3 +31,5 @@ string ClientsRepository::showInfo() {
     return " clientsinfo";
 }
 
+ClientsRepository::~ClientsRepository() {}
+

@@ -4,11 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversrepository.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/include/driversrepository.cpp.obj"
+  "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientmanager.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/include/clientmanager.cpp.obj"
+  "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversmanager.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/include/driversmanager.cpp.obj"
+  "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/drivesmanager.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/include/drivesmanager.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/clientexception.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/clientsrepository.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driveexception.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driverexception.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.obj"
+  "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driversrepository.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/drivesrepository.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/exception.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/exception.cpp.obj"
   "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/repository.cpp" "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug/program/CMakeFiles/Program.dir/__/library/src/repository.cpp.obj"

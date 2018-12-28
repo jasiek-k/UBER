@@ -18,7 +18,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/repository.cpp.obj"
   "CMakeFiles/Library.dir/src/drivesrepository.cpp.obj"
   "CMakeFiles/Library.dir/src/clientsrepository.cpp.obj"
-  "CMakeFiles/Library.dir/include/driversrepository.cpp.obj"
+  "CMakeFiles/Library.dir/src/driversrepository.cpp.obj"
+  "CMakeFiles/Library.dir/include/driversmanager.cpp.obj"
+  "CMakeFiles/Library.dir/include/drivesmanager.cpp.obj"
+  "CMakeFiles/Library.dir/include/clientmanager.cpp.obj"
   "libLibrary.pdb"
   "libLibrary.a"
 )

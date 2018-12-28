@@ -178,6 +178,14 @@
 			<Option target="Library"/>
 			<Option target="Program"/>
 		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientmanager.cpp">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientmanager.h">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientsrepository.h">
 			<Option target="Library"/>
 			<Option target="Program"/>
@@ -190,11 +198,23 @@
 			<Option target="Library"/>
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversrepository.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversmanager.cpp">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversmanager.h">
 			<Option target="Library"/>
 			<Option target="Program"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversrepository.h">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/drivesmanager.cpp">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/drivesmanager.h">
 			<Option target="Library"/>
 			<Option target="Program"/>
 		</Unit>
@@ -259,6 +279,10 @@
 			<Option target="Program"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driverexception.cpp">
+			<Option target="Library"/>
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driversrepository.cpp">
 			<Option target="Library"/>
 			<Option target="Program"/>
 		</Unit>
