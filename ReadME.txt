@@ -1,1 +1,1 @@
-Wyrzućmy imię i nazwisko i zostawmy samo name, jako user name będzie można wtedy w konstruktorze Clienta i Driver-a dać metode sprawdzającą i rzucającą wyjątek bo te wyjątki też trzeba gdzieś rzucić
+Wyrzućmy imię i nazwisko i zostawmy samo name, jako user name będzie można wtedy w konstruktorze Clienta i Driver-a dać metode sprawdzającą czy user istnieje(dla client i dla driver jak istnieje taki client to clienexc i analogicznie)i rzucającą wyjątek bo te wyjątki też trzeba gdzieś rzucić
