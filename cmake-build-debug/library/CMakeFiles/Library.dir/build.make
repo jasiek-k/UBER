@@ -227,61 +227,117 @@ library/CMakeFiles/Library.dir/src/PremiumClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/PremiumClient.cpp.s"
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\PremiumClient.cpp -o CMakeFiles\Library.dir\src\PremiumClient.cpp.s
 
-library/CMakeFiles/Library.dir/include/exception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/exception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/exception.cpp.obj: ../library/include/exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/include/exception.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\exception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\exception.cpp
+library/CMakeFiles/Library.dir/src/exception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/exception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/exception.cpp.obj: ../library/src/exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/src/exception.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\exception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\exception.cpp
 
-library/CMakeFiles/Library.dir/include/exception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/exception.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\exception.cpp > CMakeFiles\Library.dir\include\exception.cpp.i
+library/CMakeFiles/Library.dir/src/exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/exception.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\exception.cpp > CMakeFiles\Library.dir\src\exception.cpp.i
 
-library/CMakeFiles/Library.dir/include/exception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/exception.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\exception.cpp -o CMakeFiles\Library.dir\include\exception.cpp.s
+library/CMakeFiles/Library.dir/src/exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\exception.cpp -o CMakeFiles\Library.dir\src\exception.cpp.s
 
-library/CMakeFiles/Library.dir/include/clientexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/clientexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/clientexception.cpp.obj: ../library/include/clientexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/include/clientexception.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\clientexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientexception.cpp
+library/CMakeFiles/Library.dir/src/clientexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/clientexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/clientexception.cpp.obj: ../library/src/clientexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/clientexception.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\clientexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientexception.cpp
 
-library/CMakeFiles/Library.dir/include/clientexception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/clientexception.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientexception.cpp > CMakeFiles\Library.dir\include\clientexception.cpp.i
+library/CMakeFiles/Library.dir/src/clientexception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/clientexception.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientexception.cpp > CMakeFiles\Library.dir\src\clientexception.cpp.i
 
-library/CMakeFiles/Library.dir/include/clientexception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/clientexception.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientexception.cpp -o CMakeFiles\Library.dir\include\clientexception.cpp.s
+library/CMakeFiles/Library.dir/src/clientexception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/clientexception.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientexception.cpp -o CMakeFiles\Library.dir\src\clientexception.cpp.s
 
-library/CMakeFiles/Library.dir/include/driveexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/driveexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/driveexception.cpp.obj: ../library/include/driveexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/include/driveexception.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\driveexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driveexception.cpp
+library/CMakeFiles/Library.dir/src/driveexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/driveexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/driveexception.cpp.obj: ../library/src/driveexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/driveexception.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\driveexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driveexception.cpp
 
-library/CMakeFiles/Library.dir/include/driveexception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/driveexception.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driveexception.cpp > CMakeFiles\Library.dir\include\driveexception.cpp.i
+library/CMakeFiles/Library.dir/src/driveexception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/driveexception.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driveexception.cpp > CMakeFiles\Library.dir\src\driveexception.cpp.i
 
-library/CMakeFiles/Library.dir/include/driveexception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/driveexception.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driveexception.cpp -o CMakeFiles\Library.dir\include\driveexception.cpp.s
+library/CMakeFiles/Library.dir/src/driveexception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/driveexception.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driveexception.cpp -o CMakeFiles\Library.dir\src\driveexception.cpp.s
 
-library/CMakeFiles/Library.dir/include/driverexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/driverexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/driverexception.cpp.obj: ../library/include/driverexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object library/CMakeFiles/Library.dir/include/driverexception.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\driverexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driverexception.cpp
+library/CMakeFiles/Library.dir/src/driverexception.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/driverexception.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/driverexception.cpp.obj: ../library/src/driverexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object library/CMakeFiles/Library.dir/src/driverexception.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\driverexception.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driverexception.cpp
 
-library/CMakeFiles/Library.dir/include/driverexception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/driverexception.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driverexception.cpp > CMakeFiles\Library.dir\include\driverexception.cpp.i
+library/CMakeFiles/Library.dir/src/driverexception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/driverexception.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driverexception.cpp > CMakeFiles\Library.dir\src\driverexception.cpp.i
 
-library/CMakeFiles/Library.dir/include/driverexception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/driverexception.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driverexception.cpp -o CMakeFiles\Library.dir\include\driverexception.cpp.s
+library/CMakeFiles/Library.dir/src/driverexception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/driverexception.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driverexception.cpp -o CMakeFiles\Library.dir\src\driverexception.cpp.s
+
+library/CMakeFiles/Library.dir/src/repository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/repository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/repository.cpp.obj: ../library/src/repository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object library/CMakeFiles/Library.dir/src/repository.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\repository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\repository.cpp
+
+library/CMakeFiles/Library.dir/src/repository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repository.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\repository.cpp > CMakeFiles\Library.dir\src\repository.cpp.i
+
+library/CMakeFiles/Library.dir/src/repository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repository.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\repository.cpp -o CMakeFiles\Library.dir\src\repository.cpp.s
+
+library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj: ../library/src/drivesrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\drivesrepository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesrepository.cpp
+
+library/CMakeFiles/Library.dir/src/drivesrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/drivesrepository.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesrepository.cpp > CMakeFiles\Library.dir\src\drivesrepository.cpp.i
+
+library/CMakeFiles/Library.dir/src/drivesrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/drivesrepository.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesrepository.cpp -o CMakeFiles\Library.dir\src\drivesrepository.cpp.s
+
+library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj: ../library/src/clientsrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\clientsrepository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsrepository.cpp
+
+library/CMakeFiles/Library.dir/src/clientsrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/clientsrepository.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsrepository.cpp > CMakeFiles\Library.dir\src\clientsrepository.cpp.i
+
+library/CMakeFiles/Library.dir/src/clientsrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/clientsrepository.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsrepository.cpp -o CMakeFiles\Library.dir\src\clientsrepository.cpp.s
+
+library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj: ../library/include/driversrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\driversrepository.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp
+
+library/CMakeFiles/Library.dir/include/driversrepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/driversrepository.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp > CMakeFiles\Library.dir\include\driversrepository.cpp.i
+
+library/CMakeFiles/Library.dir/include/driversrepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/driversrepository.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversrepository.cpp -o CMakeFiles\Library.dir\include\driversrepository.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -297,10 +353,14 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/BaseClient.cpp.obj" \
 "CMakeFiles/Library.dir/src/GoldClient.cpp.obj" \
 "CMakeFiles/Library.dir/src/PremiumClient.cpp.obj" \
-"CMakeFiles/Library.dir/include/exception.cpp.obj" \
-"CMakeFiles/Library.dir/include/clientexception.cpp.obj" \
-"CMakeFiles/Library.dir/include/driveexception.cpp.obj" \
-"CMakeFiles/Library.dir/include/driverexception.cpp.obj"
+"CMakeFiles/Library.dir/src/exception.cpp.obj" \
+"CMakeFiles/Library.dir/src/clientexception.cpp.obj" \
+"CMakeFiles/Library.dir/src/driveexception.cpp.obj" \
+"CMakeFiles/Library.dir/src/driverexception.cpp.obj" \
+"CMakeFiles/Library.dir/src/repository.cpp.obj" \
+"CMakeFiles/Library.dir/src/drivesrepository.cpp.obj" \
+"CMakeFiles/Library.dir/src/clientsrepository.cpp.obj" \
+"CMakeFiles/Library.dir/include/driversrepository.cpp.obj"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -317,13 +377,17 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/ClientType.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/BaseClient.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/GoldClient.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/PremiumClient.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/exception.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/clientexception.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/driveexception.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/driverexception.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/exception.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/clientexception.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/driveexception.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/driverexception.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/repository.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libLibrary.a"
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && $(CMAKE_COMMAND) -P CMakeFiles\Library.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Library.dir\link.txt --verbose=$(VERBOSE)
 

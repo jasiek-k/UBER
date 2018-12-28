@@ -138,113 +138,32 @@ Library/fast:
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
-include/clientexception.obj: include/clientexception.cpp.obj
+include/driversrepository.obj: include/driversrepository.cpp.obj
 
-.PHONY : include/clientexception.obj
-
-# target to build an object file
-include/clientexception.cpp.obj:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientexception.cpp.obj
-.PHONY : include/clientexception.cpp.obj
-
-include/clientexception.i: include/clientexception.cpp.i
-
-.PHONY : include/clientexception.i
-
-# target to preprocess a source file
-include/clientexception.cpp.i:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientexception.cpp.i
-.PHONY : include/clientexception.cpp.i
-
-include/clientexception.s: include/clientexception.cpp.s
-
-.PHONY : include/clientexception.s
-
-# target to generate assembly for a file
-include/clientexception.cpp.s:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/clientexception.cpp.s
-.PHONY : include/clientexception.cpp.s
-
-include/driveexception.obj: include/driveexception.cpp.obj
-
-.PHONY : include/driveexception.obj
+.PHONY : include/driversrepository.obj
 
 # target to build an object file
-include/driveexception.cpp.obj:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driveexception.cpp.obj
-.PHONY : include/driveexception.cpp.obj
+include/driversrepository.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driversrepository.cpp.obj
+.PHONY : include/driversrepository.cpp.obj
 
-include/driveexception.i: include/driveexception.cpp.i
+include/driversrepository.i: include/driversrepository.cpp.i
 
-.PHONY : include/driveexception.i
-
-# target to preprocess a source file
-include/driveexception.cpp.i:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driveexception.cpp.i
-.PHONY : include/driveexception.cpp.i
-
-include/driveexception.s: include/driveexception.cpp.s
-
-.PHONY : include/driveexception.s
-
-# target to generate assembly for a file
-include/driveexception.cpp.s:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driveexception.cpp.s
-.PHONY : include/driveexception.cpp.s
-
-include/driverexception.obj: include/driverexception.cpp.obj
-
-.PHONY : include/driverexception.obj
-
-# target to build an object file
-include/driverexception.cpp.obj:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driverexception.cpp.obj
-.PHONY : include/driverexception.cpp.obj
-
-include/driverexception.i: include/driverexception.cpp.i
-
-.PHONY : include/driverexception.i
+.PHONY : include/driversrepository.i
 
 # target to preprocess a source file
-include/driverexception.cpp.i:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driverexception.cpp.i
-.PHONY : include/driverexception.cpp.i
+include/driversrepository.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driversrepository.cpp.i
+.PHONY : include/driversrepository.cpp.i
 
-include/driverexception.s: include/driverexception.cpp.s
+include/driversrepository.s: include/driversrepository.cpp.s
 
-.PHONY : include/driverexception.s
-
-# target to generate assembly for a file
-include/driverexception.cpp.s:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driverexception.cpp.s
-.PHONY : include/driverexception.cpp.s
-
-include/exception.obj: include/exception.cpp.obj
-
-.PHONY : include/exception.obj
-
-# target to build an object file
-include/exception.cpp.obj:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/exception.cpp.obj
-.PHONY : include/exception.cpp.obj
-
-include/exception.i: include/exception.cpp.i
-
-.PHONY : include/exception.i
-
-# target to preprocess a source file
-include/exception.cpp.i:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/exception.cpp.i
-.PHONY : include/exception.cpp.i
-
-include/exception.s: include/exception.cpp.s
-
-.PHONY : include/exception.s
+.PHONY : include/driversrepository.s
 
 # target to generate assembly for a file
-include/exception.cpp.s:
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/exception.cpp.s
-.PHONY : include/exception.cpp.s
+include/driversrepository.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/include/driversrepository.cpp.s
+.PHONY : include/driversrepository.cpp.s
 
 src/Address.obj: src/Address.cpp.obj
 
@@ -570,6 +489,195 @@ src/Vehicle.cpp.s:
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/Vehicle.cpp.s
 .PHONY : src/Vehicle.cpp.s
 
+src/clientexception.obj: src/clientexception.cpp.obj
+
+.PHONY : src/clientexception.obj
+
+# target to build an object file
+src/clientexception.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientexception.cpp.obj
+.PHONY : src/clientexception.cpp.obj
+
+src/clientexception.i: src/clientexception.cpp.i
+
+.PHONY : src/clientexception.i
+
+# target to preprocess a source file
+src/clientexception.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientexception.cpp.i
+.PHONY : src/clientexception.cpp.i
+
+src/clientexception.s: src/clientexception.cpp.s
+
+.PHONY : src/clientexception.s
+
+# target to generate assembly for a file
+src/clientexception.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientexception.cpp.s
+.PHONY : src/clientexception.cpp.s
+
+src/clientsrepository.obj: src/clientsrepository.cpp.obj
+
+.PHONY : src/clientsrepository.obj
+
+# target to build an object file
+src/clientsrepository.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj
+.PHONY : src/clientsrepository.cpp.obj
+
+src/clientsrepository.i: src/clientsrepository.cpp.i
+
+.PHONY : src/clientsrepository.i
+
+# target to preprocess a source file
+src/clientsrepository.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientsrepository.cpp.i
+.PHONY : src/clientsrepository.cpp.i
+
+src/clientsrepository.s: src/clientsrepository.cpp.s
+
+.PHONY : src/clientsrepository.s
+
+# target to generate assembly for a file
+src/clientsrepository.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/clientsrepository.cpp.s
+.PHONY : src/clientsrepository.cpp.s
+
+src/driveexception.obj: src/driveexception.cpp.obj
+
+.PHONY : src/driveexception.obj
+
+# target to build an object file
+src/driveexception.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driveexception.cpp.obj
+.PHONY : src/driveexception.cpp.obj
+
+src/driveexception.i: src/driveexception.cpp.i
+
+.PHONY : src/driveexception.i
+
+# target to preprocess a source file
+src/driveexception.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driveexception.cpp.i
+.PHONY : src/driveexception.cpp.i
+
+src/driveexception.s: src/driveexception.cpp.s
+
+.PHONY : src/driveexception.s
+
+# target to generate assembly for a file
+src/driveexception.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driveexception.cpp.s
+.PHONY : src/driveexception.cpp.s
+
+src/driverexception.obj: src/driverexception.cpp.obj
+
+.PHONY : src/driverexception.obj
+
+# target to build an object file
+src/driverexception.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driverexception.cpp.obj
+.PHONY : src/driverexception.cpp.obj
+
+src/driverexception.i: src/driverexception.cpp.i
+
+.PHONY : src/driverexception.i
+
+# target to preprocess a source file
+src/driverexception.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driverexception.cpp.i
+.PHONY : src/driverexception.cpp.i
+
+src/driverexception.s: src/driverexception.cpp.s
+
+.PHONY : src/driverexception.s
+
+# target to generate assembly for a file
+src/driverexception.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/driverexception.cpp.s
+.PHONY : src/driverexception.cpp.s
+
+src/drivesrepository.obj: src/drivesrepository.cpp.obj
+
+.PHONY : src/drivesrepository.obj
+
+# target to build an object file
+src/drivesrepository.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj
+.PHONY : src/drivesrepository.cpp.obj
+
+src/drivesrepository.i: src/drivesrepository.cpp.i
+
+.PHONY : src/drivesrepository.i
+
+# target to preprocess a source file
+src/drivesrepository.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/drivesrepository.cpp.i
+.PHONY : src/drivesrepository.cpp.i
+
+src/drivesrepository.s: src/drivesrepository.cpp.s
+
+.PHONY : src/drivesrepository.s
+
+# target to generate assembly for a file
+src/drivesrepository.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/drivesrepository.cpp.s
+.PHONY : src/drivesrepository.cpp.s
+
+src/exception.obj: src/exception.cpp.obj
+
+.PHONY : src/exception.obj
+
+# target to build an object file
+src/exception.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/exception.cpp.obj
+.PHONY : src/exception.cpp.obj
+
+src/exception.i: src/exception.cpp.i
+
+.PHONY : src/exception.i
+
+# target to preprocess a source file
+src/exception.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/exception.cpp.i
+.PHONY : src/exception.cpp.i
+
+src/exception.s: src/exception.cpp.s
+
+.PHONY : src/exception.s
+
+# target to generate assembly for a file
+src/exception.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/exception.cpp.s
+.PHONY : src/exception.cpp.s
+
+src/repository.obj: src/repository.cpp.obj
+
+.PHONY : src/repository.obj
+
+# target to build an object file
+src/repository.cpp.obj:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/repository.cpp.obj
+.PHONY : src/repository.cpp.obj
+
+src/repository.i: src/repository.cpp.i
+
+.PHONY : src/repository.i
+
+# target to preprocess a source file
+src/repository.cpp.i:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/repository.cpp.i
+.PHONY : src/repository.cpp.i
+
+src/repository.s: src/repository.cpp.s
+
+.PHONY : src/repository.s
+
+# target to generate assembly for a file
+src/repository.cpp.s:
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug && $(MAKE) -f library\CMakeFiles\Library.dir\build.make library/CMakeFiles/Library.dir/src/repository.cpp.s
+.PHONY : src/repository.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -580,18 +688,9 @@ help:
 	@echo ... Library
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... include/clientexception.obj
-	@echo ... include/clientexception.i
-	@echo ... include/clientexception.s
-	@echo ... include/driveexception.obj
-	@echo ... include/driveexception.i
-	@echo ... include/driveexception.s
-	@echo ... include/driverexception.obj
-	@echo ... include/driverexception.i
-	@echo ... include/driverexception.s
-	@echo ... include/exception.obj
-	@echo ... include/exception.i
-	@echo ... include/exception.s
+	@echo ... include/driversrepository.obj
+	@echo ... include/driversrepository.i
+	@echo ... include/driversrepository.s
 	@echo ... src/Address.obj
 	@echo ... src/Address.i
 	@echo ... src/Address.s
@@ -628,6 +727,27 @@ help:
 	@echo ... src/Vehicle.obj
 	@echo ... src/Vehicle.i
 	@echo ... src/Vehicle.s
+	@echo ... src/clientexception.obj
+	@echo ... src/clientexception.i
+	@echo ... src/clientexception.s
+	@echo ... src/clientsrepository.obj
+	@echo ... src/clientsrepository.i
+	@echo ... src/clientsrepository.s
+	@echo ... src/driveexception.obj
+	@echo ... src/driveexception.i
+	@echo ... src/driveexception.s
+	@echo ... src/driverexception.obj
+	@echo ... src/driverexception.i
+	@echo ... src/driverexception.s
+	@echo ... src/drivesrepository.obj
+	@echo ... src/drivesrepository.i
+	@echo ... src/drivesrepository.s
+	@echo ... src/exception.obj
+	@echo ... src/exception.i
+	@echo ... src/exception.s
+	@echo ... src/repository.obj
+	@echo ... src/repository.i
+	@echo ... src/repository.s
 .PHONY : help
 
 

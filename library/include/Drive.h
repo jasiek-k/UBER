@@ -21,6 +21,8 @@ public:
     void finishRide();
     string rideInfo();
     bool checkStatus();
+
+    int checkRating();
 };
 
 

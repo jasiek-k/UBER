@@ -3,3 +3,7 @@
 //
 
 #include "Drive.h"
+
+int Drive::checkRating() {
+    return 0;
+}

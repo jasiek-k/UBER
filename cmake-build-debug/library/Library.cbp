@@ -98,28 +98,31 @@
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/Vehicle.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientexception.cpp">
-			<Option target="Library"/>
-		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driveexception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/clientsrepository.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driveexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driverexception.cpp">
-			<Option target="Library"/>
-		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driverexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/exception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/driversrepository.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/drivesrepository.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/exception.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/include/repository.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/Address.cpp">
@@ -156,6 +159,27 @@
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/Vehicle.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/clientexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/clientsrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driveexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/driverexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/drivesrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/exception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/library/src/repository.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/CMakeLists.txt">

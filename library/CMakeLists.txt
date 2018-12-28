@@ -27,7 +27,7 @@ set(SOURCE_FILES
         src/GoldClient.cpp
         include/GoldClient.h
         src/PremiumClient.cpp
-        include/PremiumClient.h src/exception.cpp include/exception.h src/clientexception.cpp include/clientexception.h src/driveexception.cpp include/driveexception.h src/driverexception.cpp include/driverexception.h)
+        include/PremiumClient.h src/exception.cpp include/exception.h src/clientexception.cpp include/clientexception.h src/driveexception.cpp include/driveexception.h src/driverexception.cpp include/driverexception.h src/repository.cpp include/repository.h src/drivesrepository.cpp include/drivesrepository.h src/clientsrepository.cpp include/clientsrepository.h include/driversrepository.cpp include/driversrepository.h)
 
 add_library(Library ${SOURCE_FILES})
 
