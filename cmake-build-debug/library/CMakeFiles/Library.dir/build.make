@@ -339,47 +339,47 @@ library/CMakeFiles/Library.dir/src/driversrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/driversrepository.cpp.s"
 	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversrepository.cpp -o CMakeFiles\Library.dir\src\driversrepository.cpp.s
 
-library/CMakeFiles/Library.dir/include/driversmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/driversmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/driversmanager.cpp.obj: ../library/include/driversmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object library/CMakeFiles/Library.dir/include/driversmanager.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\driversmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp
+library/CMakeFiles/Library.dir/src/driversmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/driversmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/driversmanager.cpp.obj: ../library/src/driversmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object library/CMakeFiles/Library.dir/src/driversmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\driversmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversmanager.cpp
 
-library/CMakeFiles/Library.dir/include/driversmanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/driversmanager.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp > CMakeFiles\Library.dir\include\driversmanager.cpp.i
+library/CMakeFiles/Library.dir/src/driversmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/driversmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversmanager.cpp > CMakeFiles\Library.dir\src\driversmanager.cpp.i
 
-library/CMakeFiles/Library.dir/include/driversmanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/driversmanager.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\driversmanager.cpp -o CMakeFiles\Library.dir\include\driversmanager.cpp.s
+library/CMakeFiles/Library.dir/src/driversmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/driversmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\driversmanager.cpp -o CMakeFiles\Library.dir\src\driversmanager.cpp.s
 
-library/CMakeFiles/Library.dir/include/drivesmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/drivesmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/drivesmanager.cpp.obj: ../library/include/drivesmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object library/CMakeFiles/Library.dir/include/drivesmanager.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\drivesmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp
+library/CMakeFiles/Library.dir/src/drivesmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/drivesmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/drivesmanager.cpp.obj: ../library/src/drivesmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object library/CMakeFiles/Library.dir/src/drivesmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\drivesmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesmanager.cpp
 
-library/CMakeFiles/Library.dir/include/drivesmanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/drivesmanager.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp > CMakeFiles\Library.dir\include\drivesmanager.cpp.i
+library/CMakeFiles/Library.dir/src/drivesmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/drivesmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesmanager.cpp > CMakeFiles\Library.dir\src\drivesmanager.cpp.i
 
-library/CMakeFiles/Library.dir/include/drivesmanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/drivesmanager.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\drivesmanager.cpp -o CMakeFiles\Library.dir\include\drivesmanager.cpp.s
+library/CMakeFiles/Library.dir/src/drivesmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/drivesmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\drivesmanager.cpp -o CMakeFiles\Library.dir\src\drivesmanager.cpp.s
 
-library/CMakeFiles/Library.dir/include/clientmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/clientmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
-library/CMakeFiles/Library.dir/include/clientmanager.cpp.obj: ../library/include/clientmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object library/CMakeFiles/Library.dir/include/clientmanager.cpp.obj"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\include\clientmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp
+library/CMakeFiles/Library.dir/src/clientsmanager.cpp.obj: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/clientsmanager.cpp.obj: library/CMakeFiles/Library.dir/includes_CXX.rsp
+library/CMakeFiles/Library.dir/src/clientsmanager.cpp.obj: ../library/src/clientsmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object library/CMakeFiles/Library.dir/src/clientsmanager.cpp.obj"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\clientsmanager.cpp.obj -c C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsmanager.cpp
 
-library/CMakeFiles/Library.dir/include/clientmanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/clientmanager.cpp.i"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp > CMakeFiles\Library.dir\include\clientmanager.cpp.i
+library/CMakeFiles/Library.dir/src/clientsmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/clientsmanager.cpp.i"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsmanager.cpp > CMakeFiles\Library.dir\src\clientsmanager.cpp.i
 
-library/CMakeFiles/Library.dir/include/clientmanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/clientmanager.cpp.s"
-	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\include\clientmanager.cpp -o CMakeFiles\Library.dir\include\clientmanager.cpp.s
+library/CMakeFiles/Library.dir/src/clientsmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/clientsmanager.cpp.s"
+	cd /d C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\library && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\library\src\clientsmanager.cpp -o CMakeFiles\Library.dir\src\clientsmanager.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -403,9 +403,9 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/drivesrepository.cpp.obj" \
 "CMakeFiles/Library.dir/src/clientsrepository.cpp.obj" \
 "CMakeFiles/Library.dir/src/driversrepository.cpp.obj" \
-"CMakeFiles/Library.dir/include/driversmanager.cpp.obj" \
-"CMakeFiles/Library.dir/include/drivesmanager.cpp.obj" \
-"CMakeFiles/Library.dir/include/clientmanager.cpp.obj"
+"CMakeFiles/Library.dir/src/driversmanager.cpp.obj" \
+"CMakeFiles/Library.dir/src/drivesmanager.cpp.obj" \
+"CMakeFiles/Library.dir/src/clientsmanager.cpp.obj"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -430,9 +430,9 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/repository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/drivesrepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/clientsrepository.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/driversrepository.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/driversmanager.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/drivesmanager.cpp.obj
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/clientmanager.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/driversmanager.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/drivesmanager.cpp.obj
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/clientsmanager.cpp.obj
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\UBER-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libLibrary.a"

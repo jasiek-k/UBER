@@ -13,7 +13,7 @@ class DriversRepository: public Repository<Driver> {
 
 public:
     DriversRepository();
-    void add(Driver Driver);
+    bool add(Driver Driver);
     bool remove(Driver Driver);
     Driver find(string name);
     Driver find(bool busy);

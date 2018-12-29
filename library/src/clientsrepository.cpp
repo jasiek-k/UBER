@@ -1,21 +1,28 @@
-//
-// Created by Mateusz on 28.12.2018.
-//
-
+#include <clientexception.h>
 #include "clientsrepository.h"
 
 ClientsRepository::ClientsRepository() {}
 
-void ClientsRepository::add(Client client) { Repository::lista.push_back(client); }
+bool ClientsRepository::add(Client client) { Repository::lista.push_back(client); return true;}
 
-bool ClientsRepository::remove(Client client) { Repository::lista.remove(client); }
+bool ClientsRepository::remove(Client client) {
+    for (Client client1:Repository::lista) {
+        if (true/*client==client1*/) {
+            Repository::lista.remove(client);
+            return true;
+        }
+
+    }
+    throw new ClientException;
+}
 
 std::list<Client> ClientsRepository::getAll() {
     list<Client> temp;
     for (Client client: Repository::lista) {
         temp.push_back(client);
     }
-    return lista;
+    if(!lista.empty())return lista;
+    else throw new ClientException;
 }
 
 Client ClientsRepository::find(string name) {
@@ -24,6 +31,7 @@ Client ClientsRepository::find(string name) {
             return client;
         }
     }
+    throw new ClientException;
 }
 
 

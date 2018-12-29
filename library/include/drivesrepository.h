@@ -13,7 +13,7 @@ class DrivesRepository: public Repository<Drive> {
 
 public:
     DrivesRepository();
-    void add(Drive drive);
+    bool add(Drive drive);
     bool remove(Drive drive);
     Drive find(double price);
     Drive find(int rating);

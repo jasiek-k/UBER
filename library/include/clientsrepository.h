@@ -13,7 +13,7 @@ class ClientsRepository: public Repository<Client> {
 
 public:
     ClientsRepository();
-    void add(Client client);
+    bool add(Client client);
     bool remove(Client client);
     Client find(string name);
     std::list<Client> getAll();

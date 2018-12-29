@@ -14,7 +14,7 @@ private:
     DriversRepository driversRepository;
 public:
     DriversManager();
-    void addDriver(Driver driver);
+    bool addDriver(Driver driver);
     bool removerDriver(Driver driver);
     Driver find(string name);
     Driver find(bool busy);

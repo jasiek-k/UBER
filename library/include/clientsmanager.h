@@ -9,7 +9,7 @@ private:
     ClientsRepository clientsRepository;
 public:
     ClientsManager();
-    void addClient(Client client);
+    bool addClient(Client client);
     bool removerClient(Client client);
     Client find(string name);
     list<Client>getAllClients();

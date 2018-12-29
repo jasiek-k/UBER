@@ -4,19 +4,24 @@
 
 #include "drivesrepository.h"
 #include<string>
+#include <driveexception.h>
 
 DrivesRepository::DrivesRepository() {}
 
-void DrivesRepository::add(Drive drive) { Repository::lista.push_back(drive); }
+bool DrivesRepository::add(Drive drive) { Repository::lista.push_back(drive); return true; }
 
-bool DrivesRepository::remove(Drive drive) { Repository::lista.remove(drive); }
+bool DrivesRepository::remove(Drive drive) {  for (Drive drive: Repository::lista) {Repository::lista.remove(drive);return true; }
+throw new DriveException;
+}
 
 std::list<Drive> DrivesRepository::getAll() {
     list<Drive> temp;
     for (Drive drive: Repository::lista) {
         temp.push_back(drive);
     }
-    return lista;
+    if(!lista.empty())
+    {return lista;}
+    throw new DriveException;
 }
 
 Drive DrivesRepository::find(double price) {
@@ -25,6 +30,7 @@ Drive DrivesRepository::find(double price) {
             return drive;
         }
     }
+    throw new DriveException;
 }
 
 Drive DrivesRepository::find(int rating) {
@@ -33,6 +39,7 @@ Drive DrivesRepository::find(int rating) {
             return drive;
         }
     }
+    throw new DriveException;
 }
 string DrivesRepository::showInfo()
     {

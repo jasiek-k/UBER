@@ -6,7 +6,7 @@
 #include "exception.h"
 
 class ClientException: public Exception {
-ClientException();
+public:ClientException();
 };
 
 

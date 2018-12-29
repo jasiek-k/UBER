@@ -13,7 +13,7 @@ private:
     DrivesRepository drivesRepository;
 public:
     DrivesManager();
-    void addDrive(Drive driver);
+    bool addDrive(Drive driver);
     bool removerDrive(Drive driver);
     Drive find(int rating);
     Drive find(double price);

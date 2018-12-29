@@ -4,9 +4,9 @@
 
 #include "clientsmanager.h"
 ClientsManager::ClientsManager() {}
-void ClientsManager::addClient(Client client) {ClientsManager::clientsRepository.add(client);}
-bool ClientsManager::removerClient(Client client) {ClientsManager::clientsRepository.remove(client);}
-list<Client> ClientsManager::getAllClients() {ClientsManager::clientsRepository.getAll();}
-Client ClientsManager::find(string name) {ClientsManager::clientsRepository.find(name);}
-string ClientsManager::showClientsInfo() {ClientsManager::clientsRepository.showInfo();}
+bool ClientsManager::addClient(Client client) {return ClientsManager::clientsRepository.add(client);}
+bool ClientsManager::removerClient(Client client) {return ClientsManager::clientsRepository.remove(client);}
+list<Client> ClientsManager::getAllClients() {return ClientsManager::clientsRepository.getAll();}
+Client ClientsManager::find(string name) {return ClientsManager::clientsRepository.find(name);}
+string ClientsManager::showClientsInfo() {return ClientsManager::clientsRepository.showInfo();}
 ClientsManager::~ClientsManager() {}

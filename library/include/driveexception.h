@@ -9,8 +9,7 @@
 #include "exception.h"
 
 class DriveException: public Exception {
-public:
-DriveException();
+public:DriveException();
 };
 
 
