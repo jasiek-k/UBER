@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Library"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pobi/Pulpit/UBER-master/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library">
+				<Option output="/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/UBER-master/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/UBER-master/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library/fast">
+				<Option output="/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/UBER-master/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/UBER-master/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/UBER-master/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/BaseClient.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Client.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/ClientType.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/DailyCars.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Drive.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Driver.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/GoldClient.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Limousine.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/PremiumClient.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Transporter.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/Vehicle.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/clientexception.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/clientsmanager.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/clientsrepository.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/driveexception.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/driverexception.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/driversmanager.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/driversrepository.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/drivesmanager.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/drivesrepository.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/exception.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/include/repository.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/BaseClient.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Client.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/ClientType.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/DailyCars.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Drive.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Driver.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/GoldClient.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Limousine.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/PremiumClient.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Transporter.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/Vehicle.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/clientexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/clientsmanager.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/clientsrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/driveexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/driverexception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/driversmanager.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/driversrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/drivesmanager.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/drivesrepository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/exception.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/src/repository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/UBER-master/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,172 @@
+[
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Drive.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Drive.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Drive.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Driver.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Driver.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Driver.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Client.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Client.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Vehicle.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Vehicle.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Vehicle.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/DailyCars.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/DailyCars.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/DailyCars.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Limousine.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Limousine.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Limousine.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Transporter.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/Transporter.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/Transporter.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientType.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/ClientType.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/ClientType.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/BaseClient.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/BaseClient.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/BaseClient.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/GoldClient.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/GoldClient.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/GoldClient.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/PremiumClient.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/PremiumClient.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/PremiumClient.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/exception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/exception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/exception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/clientexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/driveexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driveexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driveexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/driverexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driverexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driverexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/repository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/repository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/repository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/drivesrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/drivesrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/drivesrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/clientsrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientsrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientsrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/driversrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driversrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driversrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/driversmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driversmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driversmanager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/drivesmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/drivesmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/drivesmanager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/clientsmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientsmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientsmanager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/Pulpit/UBER-master/program/src/main.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/program/src/main.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/exception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/exception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/exception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driveexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driveexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driverexception.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driverexception.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/repository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/repository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/repository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/drivesrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/drivesrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientsrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientsrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driversrepository.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driversrepository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/driversmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/driversmanager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/drivesmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/drivesmanager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/UBER-master/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/UBER-master/program/include -I/home/pobi/Pulpit/UBER-master/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o -c /home/pobi/Pulpit/UBER-master/library/src/clientsmanager.cpp",
+  "file": "/home/pobi/Pulpit/UBER-master/library/src/clientsmanager.cpp"
+}
+]
