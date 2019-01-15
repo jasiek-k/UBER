@@ -4,9 +4,10 @@
 
 #include "BaseClient.h"
 
-BaseClient::BaseClient(){}
+BaseClient::BaseClient(){
+    this->factor=1;
+}
 
-float BaseClient::getFactor()
-{
-
+float BaseClient::getFactor(){
+    return factor;
 }

@@ -9,7 +9,7 @@
 using namespace std;
 
 class ClientType {
-private:
+protected:
     float factor;
 public:
     ClientType();

@@ -8,16 +8,17 @@
 
 #include "repository.h"
 #include "Drive.h"
-
-class DrivesRepository: public Repository<Drive> {
+#include <memory>
+typedef shared_ptr<Drive>Drive_ptr;
+class DrivesRepository: public Repository<Drive_ptr> {
 
 public:
     DrivesRepository();
-    bool add(Drive drive);
-    bool remove(Drive drive);
+    bool add(Drive_ptr drive);
+    bool remove(Drive_ptr drive);
     Drive find(double price);
     Drive find(int rating);
-    std::list<Drive> getAll();
+    std::list<Drive_ptr> getAll();
     string showInfo();
     ~DrivesRepository();
 

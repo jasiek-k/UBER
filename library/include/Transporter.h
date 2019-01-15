@@ -13,9 +13,9 @@ public:
 public:
     Transporter(int,int,string);
     int getLoad();
-
-
+    double getPrice();
+    virtual string vehicleInfo();
 };
-
+typedef shared_ptr<Transporter>T_ptr;
 
 #endif //OOPPROJECT_TRANSPORTER_H

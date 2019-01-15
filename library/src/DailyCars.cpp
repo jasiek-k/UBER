@@ -6,7 +6,10 @@
 
 DailyCars::DailyCars(int seat, string nr):Vehicle(seat,nr){}
 
-double DailyCars::getPrice()
-{
-return 0.1;
+double DailyCars::getPrice(){
+    return 2;
+}
+
+string DailyCars::vehicleInfo(){
+    return Vehicle::vehicleInfo();
 }

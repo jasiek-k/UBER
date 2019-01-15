@@ -4,9 +4,11 @@
 
 #include "GoldClient.h"
 
-GoldClient::GoldClient() {}
+GoldClient::GoldClient(){
+    this->factor=0.8;
+}
 
 float GoldClient::getFactor()
 {
-
+    return factor;
 }

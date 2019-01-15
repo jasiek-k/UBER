@@ -14,11 +14,11 @@ class Limousine:public Vehicle {
 private:
     int extravagance;
 public:
-    double extraCost();
     int getExtravagance();
     virtual double getPrice();
     Limousine(int,int,string);
+    virtual string vehicleInfo();
 };
-
+typedef shared_ptr<Limousine>L_ptr;
 
 #endif //OOPPROJECT_LIMOUSINE_H

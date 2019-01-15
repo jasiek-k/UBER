@@ -4,9 +4,10 @@
 
 #include "PremiumClient.h"
 
-PremiumClient::PremiumClient() {}
+PremiumClient::PremiumClient(){
+    this->factor=0.6;
+}
 
-float PremiumClient::getFactor()
-{
-
+float PremiumClient::getFactor(){
+    return factor;
 }

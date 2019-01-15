@@ -13,7 +13,8 @@ class DailyCars:public Vehicle {
 public:
     DailyCars(int, string);
     virtual double getPrice();
+    virtual string vehicleInfo();
 };
-
+typedef shared_ptr<DailyCars>DC_ptr;
 
 #endif //OOPPROJECT_DAILYCARS_H

@@ -8,8 +8,6 @@ set(SOURCE_FILES
         include/Drive.h
         src/Driver.cpp
         include/Driver.h
-        src/Address.cpp
-        include/Address.h
         src/Client.cpp
         include/Client.h
         src/Vehicle.cpp

@@ -6,29 +6,23 @@
 #define OOPPROJECT_CLIENT_H
 
 #include <iostream>
-#include "Address.h"
 #include "ClientType.h"
-
+#include <memory>
 
 using namespace std;
 
 class Client {
 private:
     string name;
-    string surname;
-    Address_ptr address;
     ClientType_ptr clientType;
 public:
-    Client(string,string,Address_ptr);
+    Client(string);
     string clientInfo();
-    virtual float discount();//=0???????????????????????????????????????????????czemu robisz virtualnego klienta?
+    float discount();
     string getName();
-    string getSurname();
-    Address_ptr getAddress();
-    void setAddress(string);
     void changeClientType(string);
 
 };
-
+typedef shared_ptr<Client>Client_ptr;
 
 #endif //OOPPROJECT_CLIENT_H

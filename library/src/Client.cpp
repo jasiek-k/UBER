@@ -25,19 +25,13 @@ void Client::changeClientType(string type)
 
 string Client::clientInfo()
 {
-    return "Name: " + name + " Surname: " + surname + " Address: " + address->getAddress();
+    return "Name: " + name;
 }
 
-Client::Client(string n,string sn, Address_ptr ptr)
+Client::Client(string n)
 {
     this->name=n;
-    this->surname=sn;
-    this->address=ptr;
-}
-
-void Client::setAddress(string add)
-{
-    address->setAddress(add);
+    this->clientType=ClientType_ptr(new BaseClient());
 }
 
 string Client::getName()
@@ -45,12 +39,6 @@ string Client::getName()
     return name;
 }
 
-string Client::getSurname()
-{
-    return surname;
-}
-
-Address_ptr Client::getAddress()
-{
-    return address;
+float Client::discount(){
+    return clientType->getFactor();
 }
