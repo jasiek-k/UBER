@@ -15,7 +15,7 @@ using namespace std;
 
 Drive::Drive(Driver_ptr dr, Client_ptr cl){
     this->beginDate=boost::posix_time::second_clock::local_time();
-    this->endDate+=boost::posix_time::minutes(0);
+    //this->endDate=;
     this->driver=dr;
     this->client=cl;
     this->price=5; //stała wartość początkowa za rozpoczęcie kursu, zwiększana o kurs za przejazd
