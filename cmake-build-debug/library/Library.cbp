@@ -8,203 +8,199 @@
 		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library"/>
+				<Option working_dir="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Library">
-				<Option output="/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library"/>
+				<Option output="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uber/library/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Library/fast">
-				<Option output="/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library"/>
+				<Option output="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uber/library/include"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/BaseClient.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/BaseClient.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Client.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Client.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/ClientType.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/ClientType.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/DailyCars.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/DailyCars.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Drive.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Drive.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Driver.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Driver.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/GoldClient.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/GoldClient.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Limousine.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Limousine.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/PremiumClient.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/PremiumClient.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Transporter.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Transporter.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/Vehicle.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/Vehicle.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/clientexception.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/clientexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/clientsmanager.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/clientsmanager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/clientsrepository.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/clientsrepository.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/driveexception.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/driveexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/driverexception.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/driverexception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/driversmanager.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/driversmanager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/driversrepository.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/driversrepository.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/drivesmanager.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/drivesmanager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/drivesrepository.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/drivesrepository.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/exception.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/exception.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/include/repository.h">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/include/repository.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/BaseClient.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/BaseClient.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Client.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Client.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/ClientType.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/ClientType.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/DailyCars.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/DailyCars.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Drive.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Drive.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Driver.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Driver.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/GoldClient.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/GoldClient.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Limousine.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Limousine.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/PremiumClient.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/PremiumClient.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Transporter.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Transporter.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/Vehicle.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/Vehicle.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/clientexception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/clientexception.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/clientsmanager.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/clientsmanager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/clientsrepository.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/clientsrepository.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/driveexception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/driveexception.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/driverexception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/driverexception.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/driversmanager.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/driversmanager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/driversrepository.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/driversrepository.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/drivesmanager.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/drivesmanager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/drivesrepository.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/drivesrepository.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/exception.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/exception.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/src/repository.cpp">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/src/repository.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/CMakeLists.txt">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/library/CMakeLists.txt">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uber/program/CMakeLists.txt">
+		<Unit filename="C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/program/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\program\"/>
 		</Unit>
 	</Project>

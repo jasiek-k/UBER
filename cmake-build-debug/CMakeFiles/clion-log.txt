@@ -1,18 +1,21 @@
-/snap/clion/58/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pobi/CLionProjects/uberFresh/uber
--- The C compiler identification is GNU 7.3.0
--- The CXX compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/gcc
--- Check for working C compiler: /usr/bin/gcc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/g++
--- Check for working CXX compiler: /usr/bin/g++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: /home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Mateusz\Desktop\Studia\2.studia\POBI\temp\uber
+CMake Error at C:/Program Files/JetBrains/CLion 2018.2.6/bin/cmake/win/share/cmake-3.12/Modules/FindBoost.cmake:2048 (message):
+  Unable to find the requested Boost libraries.
+
+  Boost version: 1.68.0
+
+  Boost include path: C:/Program Files (x86)/boost/boost_1_68_0
+
+  Could not find the following Boost libraries:
+
+          boost_unit_test_framework
+
+  No Boost libraries were found.  You may need to set BOOST_LIBRARYDIR to the
+  directory containing Boost libraries or BOOST_ROOT to the location of
+  Boost.
+Call Stack (most recent call first):
+  library/CMakeLists.txt:61 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/temp/uber/cmake-build-debug/CMakeFiles/CMakeOutput.log".
