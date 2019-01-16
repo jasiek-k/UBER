@@ -12,6 +12,7 @@ class PremiumClient:public ClientType {
 public:
     PremiumClient();
     virtual float getFactor();
+    ~PremiumClient()= default;
 };
 typedef shared_ptr<PremiumClient>PClient_ptr;
 

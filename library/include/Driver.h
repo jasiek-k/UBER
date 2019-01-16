@@ -15,16 +15,15 @@ using namespace std;
 
 class Driver {
 private:
-    DrivesRepository ride;
     string name;
     Vehicle_ptr vehicle;
-public:
-    Drive actualDrive();
-    string DriverInfo();
+public: 
     Driver(string,Vehicle_ptr);
+    string DriverInfo();   
+    double getVehiclePrice();
     string getName();
     Vehicle_ptr getVehicle();
-    double getVehiclePrice();
+    ~Driver()=default;
 };
 typedef shared_ptr<Driver>Driver_ptr;
 

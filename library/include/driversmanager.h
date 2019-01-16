@@ -17,7 +17,6 @@ public:
     bool addDriver(Driver_ptr driver);
     bool removerDriver(Driver_ptr driver);
     Driver_ptr find(string name);
-    Driver_ptr find(bool busy);
     list<Driver_ptr>getAllDrivers();
     string showDriversInfo();
     ~DriversManager();

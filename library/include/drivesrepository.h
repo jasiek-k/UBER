@@ -8,8 +8,12 @@
 
 #include "repository.h"
 #include "Drive.h"
+#include "Driver.h"
 #include <memory>
+class Drive;
+class Driver;
 typedef shared_ptr<Drive>Drive_ptr;
+typedef shared_ptr<Driver>Driver_ptr;
 class DrivesRepository: public Repository<Drive_ptr> {
 
 public:

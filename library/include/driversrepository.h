@@ -16,7 +16,6 @@ public:
     bool add(Driver_ptr Driver);
     bool remove(Driver_ptr Driver);
     Driver_ptr find(string name);
-    Driver_ptr find(bool busy);
     std::list<Driver_ptr> getAll();
     string showInfo();
     ~DriversRepository();

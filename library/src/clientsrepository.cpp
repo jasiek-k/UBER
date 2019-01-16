@@ -3,17 +3,19 @@
 
 ClientsRepository::ClientsRepository() {}
 
-bool ClientsRepository::add(Client_ptr client) { Repository::lista.push_back(client); return true;}
+bool ClientsRepository::add(Client_ptr client) {
+    Repository::lista.push_back(client);
+    return true;
+}
 
 bool ClientsRepository::remove(Client_ptr client) {
     for (Client_ptr client1:Repository::lista) {
-        if (true/*client==client1*/) {
+        if (client->getName()==client1->getName()) {
             Repository::lista.remove(client);
             return true;
         }
-
     }
-    throw ClientException();
+    return false;
 }
 
 std::list<Client_ptr> ClientsRepository::getAll() {
@@ -21,8 +23,7 @@ std::list<Client_ptr> ClientsRepository::getAll() {
     for (Client_ptr client: Repository::lista) {
         temp.push_back(client);
     }
-    if(!lista.empty())return lista;
-    else throw ClientException();
+    return lista;
 }
 
 Client_ptr ClientsRepository::find(string name) {
@@ -31,7 +32,7 @@ Client_ptr ClientsRepository::find(string name) {
             return client;
         }
     }
-    throw ClientException();
+return nullptr;
 }
 
 

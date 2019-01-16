@@ -18,6 +18,7 @@ public:
     virtual double getPrice();
     Limousine(int,int,string);
     virtual string vehicleInfo();
+    ~Limousine()=default;
 };
 typedef shared_ptr<Limousine>L_ptr;
 

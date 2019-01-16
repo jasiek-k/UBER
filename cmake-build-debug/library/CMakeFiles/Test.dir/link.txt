@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/Test.dir/test/master.cpp.o CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o  -o Test libLibrary.a /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so 

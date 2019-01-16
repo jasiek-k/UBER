@@ -13,12 +13,13 @@ class Vehicle {
 private:
     int seats;
     string registnr;
-public:
-    virtual double getPrice()=0;
+public:  
     Vehicle(int,string);
+    virtual double getPrice()=0;
     virtual string vehicleInfo();
     int getSeats();
     string getRegNr();
+    ~Vehicle()= default;
 };
 typedef shared_ptr<Vehicle>Vehicle_ptr;
 

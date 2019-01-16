@@ -7,6 +7,7 @@
 
 
 #include "drivesrepository.h"
+#include "driveexception.h"
 
 class DrivesManager {
 private:

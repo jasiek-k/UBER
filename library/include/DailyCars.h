@@ -14,6 +14,7 @@ public:
     DailyCars(int, string);
     virtual double getPrice();
     virtual string vehicleInfo();
+    ~DailyCars()= default;
 };
 typedef shared_ptr<DailyCars>DC_ptr;
 

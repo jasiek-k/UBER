@@ -18,7 +18,7 @@ bool DrivesRepository::remove(Drive_ptr drive) {
         if(drive1->getClient()->getName()== drive->getClient()->getName())
         Repository::lista.remove(drive);return true;
     }
-return nullptr;
+return false;
 }
 
 std::list<Drive_ptr> DrivesRepository::getAll() {

@@ -10,11 +10,6 @@ Driver::Driver(string n, Vehicle_ptr ptr)
     this->vehicle=ptr;
 }
 
-Drive Driver::actualDrive()
-{
-
-}
-
 string Driver::DriverInfo()
 {
     return "Driver info - Name: " + name + " - Vehicle: " + vehicle->vehicleInfo();
@@ -24,7 +19,7 @@ string Driver::DriverInfo()
 
 string Driver::getName()
 {
-    return name;
+    return this->name;
 }
 
 Vehicle_ptr Driver::getVehicle()

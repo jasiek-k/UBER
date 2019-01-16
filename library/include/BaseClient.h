@@ -12,6 +12,7 @@ class BaseClient: public ClientType {
 public:
     BaseClient();
     virtual float getFactor();
+    ~BaseClient()=default;
 };
 typedef shared_ptr<BaseClient>BClient_ptr;
 

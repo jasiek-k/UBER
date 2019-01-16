@@ -11,6 +11,7 @@ class GoldClient:public ClientType {
 public:
     GoldClient();
     virtual float getFactor();
+    ~GoldClient()= default;
 };
 typedef shared_ptr<GoldClient>GClient_ptr;
 

@@ -12,10 +12,11 @@ using namespace std;
 class Address {
 private:
     string street;
-public:
+public: 
+    Address(string);
     string getAddress();
     void setAddress(string);
-    Address(string);
+    ~Address()=default;
 };
 typedef shared_ptr <Address> Address_ptr;
 

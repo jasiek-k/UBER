@@ -12,6 +12,7 @@
 #include <iostream>
 #include "Client.h"
 #include "Driver.h"
+class Driver;
 
 typedef shared_ptr<Driver>Driver_ptr;
 typedef shared_ptr<Client>Client_ptr;
@@ -32,9 +33,10 @@ public:
     string driveInfo();
     Client_ptr getClient();
     Driver_ptr getDriver();
+    ~Drive()=default;
 
 };
-//typedef shared_ptr<Drive>Drive_ptr;
+typedef shared_ptr<Drive>Drive_ptr;
 
 
 

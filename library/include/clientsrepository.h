@@ -9,6 +9,7 @@
 #include "Client.h"
 #include "repository.h"
 
+
 class ClientsRepository: public Repository<Client_ptr> {
 
 public:

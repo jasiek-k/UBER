@@ -14,6 +14,7 @@ protected:
 public:
     ClientType();
     virtual float getFactor()=0;
+    ~ClientType()=default;
 };
 typedef shared_ptr<ClientType>ClientType_ptr;
 

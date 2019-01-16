@@ -15,6 +15,7 @@ public:
     int getLoad();
     double getPrice();
     virtual string vehicleInfo();
+    ~Transporter()=default;
 };
 typedef shared_ptr<Transporter>T_ptr;
 

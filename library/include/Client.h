@@ -21,6 +21,7 @@ public:
     float discount();
     string getName();
     void changeClientType(string);
+    ~Client()=default;
 
 };
 typedef shared_ptr<Client>Client_ptr;
