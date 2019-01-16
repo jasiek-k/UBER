@@ -22,5 +22,5 @@ Limousine::Limousine(int seat, int extra, string nr):Vehicle(seat,nr)
 string Limousine::vehicleInfo(){
     stringstream tmp;
     tmp << extravagance;
-    return Vehicle::vehicleInfo() + " - rate: " + tmp.str()+ "/3";
+    return "Limousine: "+Vehicle::vehicleInfo() + " - rate: " + tmp.str()+ "/3";
 }

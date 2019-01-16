@@ -10,9 +10,9 @@ Driver::Driver(string n, Vehicle_ptr ptr)
     this->vehicle=ptr;
 }
 
-string Driver::DriverInfo()
+string Driver::driverInfo()
 {
-    return "Driver info - Name: " + name + " - Vehicle: " + vehicle->vehicleInfo();
+    return "Name: " + name + " - Vehicle: " + vehicle->vehicleInfo();
    /* if(getStatus())  return "Driver Info: " + name + " status: busy " + vehicle->vehicleInfo();
     if(!getStatus())  return "Driver Info: " + name + " status: free to go " + vehicle->vehicleInfo();*/
 }

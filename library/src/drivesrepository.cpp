@@ -5,6 +5,7 @@
 #include "drivesrepository.h"
 #include <string>
 #include <driveexception.h>
+#include <drivesrepository.h>
 
 
 DrivesRepository::DrivesRepository() {}
@@ -58,6 +59,10 @@ string DrivesRepository::showInfo()
     {
         return " drivesinfo";
     }
+
+DrivesRepository::~DrivesRepository() {
+
+}
 
 
 

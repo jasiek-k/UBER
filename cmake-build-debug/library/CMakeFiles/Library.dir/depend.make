@@ -24,7 +24,9 @@ library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/ClientType.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/Drive.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/Driver.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/Vehicle.h
+library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/driveexception.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/drivesrepository.h
+library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/exception.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/include/repository.h
 library/CMakeFiles/Library.dir/src/Drive.cpp.o: ../library/src/Drive.cpp
 

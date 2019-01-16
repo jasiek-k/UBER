@@ -14,7 +14,7 @@ Vehicle::Vehicle(int sea, string nr)
 string Vehicle::vehicleInfo()
 {
     stringstream tmp;
-    tmp << "Vehicle Info - seats: " << seats << " - registration number: " << registnr;
+    tmp << "seats: " << seats << " - registration number: " << registnr;
     return tmp.str();
 }
 

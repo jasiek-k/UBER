@@ -48,7 +48,11 @@ Driver_ptr DriversRepository::find(string name) {
 }
 
 string DriversRepository::showInfo() {
-    return " driversinfo";
+    string temp="";
+    for (Driver_ptr driver: Repository::lista) {
+        temp+=driver->driverInfo()+" \n";
+    }
+    return " Driversinfo\n"+temp;
 }
 
 DriversRepository::~DriversRepository() {

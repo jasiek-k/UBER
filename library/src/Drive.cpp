@@ -9,6 +9,7 @@
 #include <sstream>
 #include <iostream>
 #include <Drive.h>
+#include <driveexception.h>
 
 
 typedef shared_ptr<Driver>Driver_ptr;
@@ -18,6 +19,10 @@ using namespace std;
 Drive::Drive(Driver_ptr dr, Client_ptr cl){
     this->beginDate=boost::posix_time::second_clock::local_time();
     //this->endDate=nullptr;
+    if((dr==nullptr)||(cl==nullptr))
+    {
+        throw DriveException();
+    }
     this->driver=dr;
     this->client=cl;
     this->price=5; //stała wartość początkowa za rozpoczęcie kursu, zwiększana o kurs za przejazd
@@ -43,7 +48,7 @@ string Drive::driveInfo()
 {
     stringstream tmp;
     tmp << conductPrice();
-    return "Drive Info - Driver: " + driver->DriverInfo() + " - Client: " + client->clientInfo() + " - Price: " + tmp.str();
+    return "Drive Info - Driver: " + driver->driverInfo() + " - Client: " + client->clientInfo() + " - Price: " + tmp.str();
 }
 
 Client_ptr Drive::getClient() {

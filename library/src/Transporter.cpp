@@ -26,5 +26,5 @@ double Transporter::getPrice() {
 string Transporter::vehicleInfo(){
     stringstream tmp;
     tmp << load;
-    return Vehicle::vehicleInfo() + " - load: " + tmp.str();
+    return "Transporter: "+Vehicle::vehicleInfo() + " - load: " + tmp.str();
 }

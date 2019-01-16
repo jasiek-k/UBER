@@ -74,6 +74,10 @@ Client.h
 repository.h
 ../library/include/repository.h
 
+../library/include/driveexception.h
+exception.h
+../library/include/exception.h
+
 ../library/include/driverexception.h
 exception.h
 ../library/include/exception.h
@@ -89,6 +93,12 @@ Driver.h
 ../library/include/Driver.h
 repository.h
 ../library/include/repository.h
+
+../library/include/drivesmanager.h
+drivesrepository.h
+../library/include/drivesrepository.h
+driveexception.h
+../library/include/driveexception.h
 
 ../library/include/drivesrepository.h
 repository.h
@@ -121,6 +131,8 @@ Transporter.h
 -
 Vehicle.h
 -
+Drive.h
+-
 clientsmanager.h
 -
 Driver.h
@@ -131,4 +143,8 @@ driversmanager.h
 /home/pobi/CLionProjects/uberFresh/uberek/library/test/driversmanager.h
 driverexception.h
 /home/pobi/CLionProjects/uberFresh/uberek/library/test/driverexception.h
+drivesmanager.h
+/home/pobi/CLionProjects/uberFresh/uberek/library/test/drivesmanager.h
+driveexception.h
+/home/pobi/CLionProjects/uberFresh/uberek/library/test/driveexception.h
 

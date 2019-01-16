@@ -19,7 +19,7 @@ private:
     Vehicle_ptr vehicle;
 public: 
     Driver(string,Vehicle_ptr);
-    string DriverInfo();   
+    string driverInfo();   
     double getVehiclePrice();
     string getName();
     Vehicle_ptr getVehicle();

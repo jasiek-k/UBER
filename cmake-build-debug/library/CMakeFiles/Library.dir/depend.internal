@@ -25,7 +25,9 @@ library/CMakeFiles/Library.dir/src/Drive.cpp.o
  ../library/include/Drive.h
  ../library/include/Driver.h
  ../library/include/Vehicle.h
+ ../library/include/driveexception.h
  ../library/include/drivesrepository.h
+ ../library/include/exception.h
  ../library/include/repository.h
  /home/pobi/CLionProjects/uberFresh/uberek/library/src/Drive.cpp
 library/CMakeFiles/Library.dir/src/Driver.cpp.o

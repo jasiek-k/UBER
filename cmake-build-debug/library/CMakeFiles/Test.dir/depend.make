@@ -11,9 +11,11 @@ library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/Veh
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/clientexception.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/clientsmanager.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/clientsrepository.h
+library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/driveexception.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/driverexception.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/driversmanager.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/driversrepository.h
+library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/drivesmanager.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/drivesrepository.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/exception.h
 library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o: ../library/include/repository.h

@@ -37,7 +37,11 @@ return nullptr;
 
 
 string ClientsRepository::showInfo() {
-    return " clientsinfo";
+    string temp="";
+    for (Client_ptr client: Repository::lista) {
+       temp +=client->clientInfo() + "\n";
+    }
+    return " Clientsinfo:\n" + temp;
 }
 
 ClientsRepository::~ClientsRepository() {}

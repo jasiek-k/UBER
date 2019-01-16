@@ -12,9 +12,11 @@ library/CMakeFiles/Test.dir/test/ClientManagerTest.cpp.o
  ../library/include/clientexception.h
  ../library/include/clientsmanager.h
  ../library/include/clientsrepository.h
+ ../library/include/driveexception.h
  ../library/include/driverexception.h
  ../library/include/driversmanager.h
  ../library/include/driversrepository.h
+ ../library/include/drivesmanager.h
  ../library/include/drivesrepository.h
  ../library/include/exception.h
  ../library/include/repository.h
