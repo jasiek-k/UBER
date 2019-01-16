@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master
-# Build directory: C:/Users/Mateusz/Desktop/Studia/2.studia/POBI/UBER-master/cmake-build-debug
+# Source directory: /home/pobi/CLionProjects/uberFresh/uber
+# Build directory: /home/pobi/CLionProjects/uberFresh/uber/cmake-build-debug
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

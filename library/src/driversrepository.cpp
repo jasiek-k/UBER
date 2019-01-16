@@ -8,38 +8,39 @@
 
 DriversRepository::DriversRepository() {}
 
-bool DriversRepository::add(Driver driver) { Repository::lista.push_back(driver); }
+bool DriversRepository::add(Driver_ptr driver) {
+    Repository::lista.push_back(driver);
+    return true;
+}
 
-bool DriversRepository::remove(Driver driver) {
-    for (Driver driver1: Repository::lista) {
+bool DriversRepository::remove(Driver_ptr driver) {
+    for (Driver_ptr driver1: Repository::lista) {
         if(true/*driver1==driver*/)//zmienić na wskaźniki albo zaimplementować equalsTo
         Repository::lista.remove(driver);
         return true;
     }
-    throw new DriverException;
+    return nullptr;
 }
 
-std::list<Driver> DriversRepository::getAll() {
-    list<Driver> temp;
-    for (Driver driver: Repository::lista) {
+std::list<Driver_ptr> DriversRepository::getAll() {
+    list<Driver_ptr> temp;
+    for (Driver_ptr driver: Repository::lista) {
         temp.push_back(driver);
     }
-    if(!lista.empty()) {
         return lista;
-    }
-    else throw new DriverException;
-    }
 
-Driver DriversRepository::find(string name) {
-    for (Driver driver: Repository::lista) {
-        if (driver.getName() == name) {
+    }
+/*
+Driver_ptr DriversRepository::find(string name) {
+    for (Driver_ptr driver: Repository::lista) {
+        if (driver->getName() == name) {
             return driver;
         }
     }
-    throw new DriverException;
+    return nullptr_t;
 }
-
-Driver DriversRepository::find(bool busy) {
+/*
+Driver_ptr DriversRepository::find(bool busy) {
     for (Driver driver: Repository::lista) {
         if (driver.getStatus() == busy) {
             return driver;
@@ -47,7 +48,7 @@ Driver DriversRepository::find(bool busy) {
     }
     throw new DriverException;
 }
-
+*/
 string DriversRepository::showInfo() {
     return " driversinfo";
 }

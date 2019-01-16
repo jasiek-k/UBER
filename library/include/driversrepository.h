@@ -9,15 +9,15 @@
 #include "Driver.h"
 #include "repository.h"
 
-class DriversRepository: public Repository<Driver> {
+class DriversRepository: public Repository<Driver_ptr> {
 
 public:
     DriversRepository();
-    bool add(Driver Driver);
-    bool remove(Driver Driver);
-    Driver find(string name);
-    Driver find(bool busy);
-    std::list<Driver> getAll();
+    bool add(Driver_ptr Driver);
+    bool remove(Driver_ptr Driver);
+    Driver_ptr find(string name);
+    Driver_ptr find(bool busy);
+    std::list<Driver_ptr> getAll();
     string showInfo();
     ~DriversRepository();
 

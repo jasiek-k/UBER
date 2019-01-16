@@ -3,46 +3,61 @@
 //
 
 #include "drivesrepository.h"
-#include<string>
+#include <string>
 #include <driveexception.h>
+
 
 DrivesRepository::DrivesRepository() {}
 
-bool DrivesRepository::add(Drive drive) { Repository::lista.push_back(drive); return true; }
-
-bool DrivesRepository::remove(Drive drive) {  for (Drive drive: Repository::lista) {Repository::lista.remove(drive);return true; }
-throw new DriveException;
+bool DrivesRepository::add(Drive_ptr drive) {
+    Repository::lista.push_back(drive); return true;
 }
 
-std::list<Drive> DrivesRepository::getAll() {
-    list<Drive> temp;
-    for (Drive drive: Repository::lista) {
+bool DrivesRepository::remove(Drive_ptr drive) {
+    for (Drive_ptr drive1: Repository::lista) {
+        if(drive1->getClient()->getName()== drive->getClient()->getName())
+        Repository::lista.remove(drive);return true;
+    }
+return nullptr;
+}
+
+std::list<Drive_ptr> DrivesRepository::getAll() {
+    list<Drive_ptr> temp;
+    for (Drive_ptr drive: Repository::lista) {
         temp.push_back(drive);
     }
-    if(!lista.empty())
-    {return lista;}
-    throw new DriveException;
+    return temp;
 }
 
-Drive DrivesRepository::find(double price) {
-    for (Drive drive: Repository::lista) {
-        if (drive.conductPrice() == price) {
+Drive_ptr DrivesRepository::find(double price) {
+    for (Drive_ptr drive: Repository::lista) {
+        if (drive->conductPrice() == price) {
             return drive;
         }
     }
-    throw new DriveException;
+    return nullptr;
 }
-
-Drive DrivesRepository::find(int rating) {
-    for (Drive drive: Repository::lista) {
-        if (drive.checkRating() == rating) {
+Drive_ptr DrivesRepository::find(Client_ptr client) {
+    for (Drive_ptr drive: Repository::lista) {
+        if (drive->getClient()->getName() == client->getName()) {
             return drive;
         }
     }
-    throw new DriveException;
+    return nullptr;
+}
+
+Drive_ptr DrivesRepository::find(Driver_ptr driver) {
+    for (Drive_ptr drive: Repository::lista) {
+        if (drive->getDriver()->getName() == driver->getName()) {
+            return drive;
+        }
+    }
+    return nullptr;
 }
 string DrivesRepository::showInfo()
     {
         return " drivesinfo";
     }
+
+
 

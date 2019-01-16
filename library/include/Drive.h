@@ -12,7 +12,7 @@
 #include <iostream>
 #include "Client.h"
 #include "Driver.h"
-//#include <Driver.h>
+
 typedef shared_ptr<Driver>Driver_ptr;
 typedef shared_ptr<Client>Client_ptr;
 
@@ -30,7 +30,9 @@ public:
     float conductPrice();
     void finishRide();
     string driveInfo();
-    bool checkStatus();
+    Client_ptr getClient();
+    Driver_ptr getDriver();
+
 };
 //typedef shared_ptr<Drive>Drive_ptr;
 

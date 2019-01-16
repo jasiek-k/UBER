@@ -16,8 +16,9 @@ public:
     DrivesRepository();
     bool add(Drive_ptr drive);
     bool remove(Drive_ptr drive);
-    Drive find(double price);
-    Drive find(int rating);
+    Drive_ptr find(double price);
+    Drive_ptr find(Client_ptr client);
+    Drive_ptr find(Driver_ptr driver);
     std::list<Drive_ptr> getAll();
     string showInfo();
     ~DrivesRepository();

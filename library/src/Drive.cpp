@@ -8,6 +8,8 @@
 #include <memory>
 #include <sstream>
 #include <iostream>
+#include <Drive.h>
+
 
 typedef shared_ptr<Driver>Driver_ptr;
 typedef shared_ptr<Client>Client_ptr;
@@ -15,7 +17,7 @@ using namespace std;
 
 Drive::Drive(Driver_ptr dr, Client_ptr cl){
     this->beginDate=boost::posix_time::second_clock::local_time();
-    //this->endDate=;
+    //this->endDate=nullptr;
     this->driver=dr;
     this->client=cl;
     this->price=5; //stała wartość początkowa za rozpoczęcie kursu, zwiększana o kurs za przejazd
@@ -44,6 +46,10 @@ string Drive::driveInfo()
     return "Drive Info - Driver: " + driver->DriverInfo() + " - Client: " + client->clientInfo() + " - Price: " + tmp.str();
 }
 
-bool Drive::checkStatus(){
+Client_ptr Drive::getClient() {
+    return this->client;
+}
 
+Driver_ptr Drive::getDriver() {
+    return this->driver;
 }

@@ -9,14 +9,14 @@
 #include "Client.h"
 #include "repository.h"
 
-class ClientsRepository: public Repository<Client> {
+class ClientsRepository: public Repository<Client_ptr> {
 
 public:
     ClientsRepository();
-    bool add(Client client);
-    bool remove(Client client);
-    Client find(string name);
-    std::list<Client> getAll();
+    bool add(Client_ptr client);
+    bool remove(Client_ptr client);
+    Client_ptr find(string name);
+    std::list<Client_ptr> getAll();
     string showInfo();
     ~ClientsRepository();
 

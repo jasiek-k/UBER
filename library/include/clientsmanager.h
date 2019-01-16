@@ -9,10 +9,10 @@ private:
     ClientsRepository clientsRepository;
 public:
     ClientsManager();
-    bool addClient(Client client);
-    bool removerClient(Client client);
-    Client find(string name);
-    list<Client>getAllClients();
+    bool addClient(Client_ptr client);
+    bool removerClient(Client_ptr client);
+    Client_ptr find(string name);
+    list<Client_ptr>getAllClients();
     string showClientsInfo();
     ~ClientsManager();
 

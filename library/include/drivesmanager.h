@@ -13,11 +13,13 @@ private:
     DrivesRepository drivesRepository;
 public:
     DrivesManager();
-    bool addDrive(Drive driver);
-    bool removerDrive(Drive driver);
-    Drive find(int rating);
-    Drive find(double price);
-    list<Drive>getAllDrives();
+    bool addDrive(Drive_ptr drive);
+    bool addDrive(Client_ptr client, Driver_ptr driver);
+    bool removerDrive(Drive_ptr driver);
+    Drive_ptr find(double price);
+    Drive_ptr find(Client_ptr client);
+    Drive_ptr find(Driver_ptr driver);
+    list<Drive_ptr>getAllDrives();
     string showDrivesInfo();
     ~DrivesManager();
 
