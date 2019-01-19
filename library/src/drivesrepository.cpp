@@ -1,7 +1,3 @@
-//
-// Created by Mateusz on 28.12.2018.
-//
-
 #include "drivesrepository.h"
 #include <string>
 #include <driveexception.h>
@@ -15,11 +11,9 @@ bool DrivesRepository::add(Drive_ptr drive) {
 }
 
 bool DrivesRepository::remove(Drive_ptr drive) {
-    for (Drive_ptr drive1: Repository::lista) {
-        if(drive1->getClient()->getName()== drive->getClient()->getName())
-        Repository::lista.remove(drive);return true;
-    }
-return false;
+
+        Repository::lista.remove(drive);
+        return true;
 }
 
 std::list<Drive_ptr> DrivesRepository::getAll() {
@@ -29,36 +23,6 @@ std::list<Drive_ptr> DrivesRepository::getAll() {
     }
     return temp;
 }
-
-Drive_ptr DrivesRepository::find(double price) {
-    for (Drive_ptr drive: Repository::lista) {
-        if (drive->conductPrice() == price) {
-            return drive;
-        }
-    }
-    return nullptr;
-}
-Drive_ptr DrivesRepository::find(Client_ptr client) {
-    for (Drive_ptr drive: Repository::lista) {
-        if (drive->getClient()->getName() == client->getName()) {
-            return drive;
-        }
-    }
-    return nullptr;
-}
-
-Drive_ptr DrivesRepository::find(Driver_ptr driver) {
-    for (Drive_ptr drive: Repository::lista) {
-        if (drive->getDriver()->getName() == driver->getName()) {
-            return drive;
-        }
-    }
-    return nullptr;
-}
-string DrivesRepository::showInfo()
-    {
-        return " drivesinfo";
-    }
 
 DrivesRepository::~DrivesRepository() {
 

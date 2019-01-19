@@ -8,10 +8,10 @@
 
 #include "Driver.h"
 #include "driversrepository.h"
-
+#include <memory>
 class DriversManager {
 private:
-    DriversRepository driversRepository;
+    DR_ptr driversRepository;
 public:
     DriversManager();
     bool addDriver(Driver_ptr driver);
@@ -21,6 +21,7 @@ public:
     string showDriversInfo();
     ~DriversManager();
 };
+typedef shared_ptr<DriversManager>DRM_ptr;
 
 
 #endif //OOPPROJECT_DRIVERSMANAGER_H

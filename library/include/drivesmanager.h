@@ -8,10 +8,11 @@
 
 #include "drivesrepository.h"
 #include "driveexception.h"
+#include <memory>
 
 class DrivesManager {
 private:
-    DrivesRepository drivesRepository;
+    DRs_ptr drivesRepository;
 public:
     DrivesManager();
     bool addDrive(Drive_ptr drive);
@@ -20,11 +21,15 @@ public:
     Drive_ptr find(double price);
     Drive_ptr find(Client_ptr client);
     Drive_ptr find(Driver_ptr driver);
+    bool endOfDrive(Client_ptr client);
+    float getPriceForFinishedRide(Client_ptr client);
     list<Drive_ptr>getAllDrives();
     string showDrivesInfo();
     ~DrivesManager();
 
 };
+
+typedef shared_ptr<DrivesManager>DRsM_ptr;
 
 
 #endif //OOPPROJECT_DRIVESMANAGER_H

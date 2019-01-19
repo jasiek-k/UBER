@@ -3,10 +3,10 @@
 
 
 #include "clientsrepository.h"
-
+#include <memory>
 class ClientsManager {
 private:
-    ClientsRepository clientsRepository;
+    CL_ptr clientsRepository;
 public:
     ClientsManager();
     bool addClient(Client_ptr client);
@@ -17,6 +17,7 @@ public:
     ~ClientsManager();
 
 };
+typedef shared_ptr<ClientsManager>CLM_ptr;
 
 
 #endif //OOPPROJECT_CLIENTMANAGER_H

@@ -5,33 +5,63 @@
 #include <clientexception.h>
 #include "clientsmanager.h"
 
-ClientsManager::ClientsManager() {}
+ClientsManager::ClientsManager() {
+    this->clientsRepository = CL_ptr(new ClientsRepository());
+}
 
 bool ClientsManager::addClient(Client_ptr client) {
-    if (clientsRepository.find(client->getName()) != nullptr) {
-        throw ClientException();
+    try {
+        Client_ptr clt = find(client->getName());
     }
-    return ClientsManager::clientsRepository.add(client);
+    catch(ClientException)
+    {
+        clientsRepository->add(client);
+        return true;
+    }
+    throw ClientException();
 }
 
 bool ClientsManager::removerClient(Client_ptr client) {
-    if (clientsRepository.find(client->getName()) == nullptr) {
-        throw ClientException();
+    try {
+        Client_ptr clt = find(client->getName());
+        clientsRepository->remove(client);
+        return true;
+
     }
-    return ClientsManager::clientsRepository.remove(client);
+    catch(ClientException)
+    {
+    }
+    throw ClientException();
 }
 
-list<Client_ptr> ClientsManager::getAllClients() { return ClientsManager::clientsRepository.getAll(); }
+list<Client_ptr> ClientsManager::getAllClients() { return ClientsManager::clientsRepository->getAll(); }
 
 Client_ptr ClientsManager::find(string name) {
 
-    Client_ptr client = clientsRepository.find(name);
-    if (client == nullptr) {
+    list<Client_ptr> listka= getAllClients();
+
+
+    if(listka.empty())
+    {
         throw ClientException();
     }
-    return client;
+    for (Client_ptr client: listka) {
+        if (client->getName() == name) {
+            return client;
+        }
+    }
+
+    throw ClientException();
 }
 
-string ClientsManager::showClientsInfo() { return ClientsManager::clientsRepository.showInfo(); }
+string ClientsManager::showClientsInfo() {
+
+    list<Client_ptr> listka= getAllClients();
+    string temp="";
+    for (Client_ptr client: listka) {
+        temp +=client->clientInfo() + "\n";
+    }
+    return " Clientsinfo:\n" + temp;
+}
 
 ClientsManager::~ClientsManager() {}

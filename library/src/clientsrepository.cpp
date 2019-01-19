@@ -1,7 +1,9 @@
 #include <clientexception.h>
 #include "clientsrepository.h"
 
-ClientsRepository::ClientsRepository() {}
+ClientsRepository::ClientsRepository() {
+
+}
 
 bool ClientsRepository::add(Client_ptr client) {
     Repository::lista.push_back(client);
@@ -24,24 +26,6 @@ std::list<Client_ptr> ClientsRepository::getAll() {
         temp.push_back(client);
     }
     return lista;
-}
-
-Client_ptr ClientsRepository::find(string name) {
-    for (Client_ptr client: Repository::lista) {
-        if (client->getName() == name) {
-            return client;
-        }
-    }
-return nullptr;
-}
-
-
-string ClientsRepository::showInfo() {
-    string temp="";
-    for (Client_ptr client: Repository::lista) {
-       temp +=client->clientInfo() + "\n";
-    }
-    return " Clientsinfo:\n" + temp;
 }
 
 ClientsRepository::~ClientsRepository() {}

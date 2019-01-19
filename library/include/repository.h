@@ -18,7 +18,6 @@ public:
 virtual bool add(T t)=0;
 virtual bool remove(T t)=0;
 virtual list<T> getAll()=0;
-virtual string showInfo()=0;
 ~Repository()= default;
 };
 

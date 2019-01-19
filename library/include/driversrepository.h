@@ -8,6 +8,7 @@
 
 #include "Driver.h"
 #include "repository.h"
+#include <memory>
 
 class DriversRepository: public Repository<Driver_ptr> {
 
@@ -15,12 +16,9 @@ public:
     DriversRepository();
     bool add(Driver_ptr Driver);
     bool remove(Driver_ptr Driver);
-    Driver_ptr find(string name);
     std::list<Driver_ptr> getAll();
-    string showInfo();
     ~DriversRepository();
-
 };
-
+typedef shared_ptr<DriversRepository>DR_ptr;
 
 #endif //OOPPROJECT_DRIVERSREPOSITORY_H

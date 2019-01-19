@@ -20,15 +20,9 @@ public:
     DrivesRepository();
     bool add(Drive_ptr drive);
     bool remove(Drive_ptr drive);
-    Drive_ptr find(double price);
-    Drive_ptr find(Client_ptr client);
-    Drive_ptr find(Driver_ptr driver);
     std::list<Drive_ptr> getAll();
-    string showInfo();
     ~DrivesRepository();
-
-
 };
 
-
+typedef shared_ptr<DrivesRepository>DRs_ptr;
 #endif //OOPPROJECT_DRIVESREPOSITORY_H

@@ -1,7 +1,3 @@
-//
-// Created by pobi on 26.12.18.
-//
-
 #include "Drive.h"
 #include "Client.h"
 #include "Driver.h"
@@ -12,43 +8,43 @@
 #include <driveexception.h>
 
 
-typedef shared_ptr<Driver>Driver_ptr;
-typedef shared_ptr<Client>Client_ptr;
+typedef shared_ptr<Driver> Driver_ptr;
+typedef shared_ptr<Client> Client_ptr;
 using namespace std;
 
-Drive::Drive(Driver_ptr dr, Client_ptr cl){
-    this->beginDate=boost::posix_time::second_clock::local_time();
+Drive::Drive(Driver_ptr dr, Client_ptr cl) {
+    this->beginDate = boost::posix_time::second_clock::local_time();
     //this->endDate=nullptr;
-    if((dr==nullptr)||(cl==nullptr))
-    {
+    if ((dr == nullptr) || (cl == nullptr)) {
         throw DriveException();
     }
-    this->driver=dr;
-    this->client=cl;
-    this->price=5; //stała wartość początkowa za rozpoczęcie kursu, zwiększana o kurs za przejazd
+    this->driver = dr;
+    this->client = cl;
+    this->price = 5; //stała wartość początkowa za rozpoczęcie kursu, zwiększana o kurs za przejazd
+    this->ifFinished = false;//flaga sygnalizująca czy kurs został zakończony
 }
 
-float Drive::conductPrice(){
-    /*
-    ///TUTAJ NIE KMINIE JAKI DAC WARUNEK SPRAWDZENIA CZY KURS SIE SKONCZYL
-    if(endDate) {
-        return price=(price+(endDate-boost::posix_time::second_clock::local_time()).minutes())*client->discount();
+float Drive::conductPrice() {
+
+    if (!ifFinished) {
+        return 1.00*(price+((boost::posix_time::second_clock::local_time()-beginDate).minutes()+1)*driver->getVehiclePrice())*client->discount();
     }
-    if (endDate) {
-        this->price=(price+(endDate-beginDate).minutes())*client->discount();
-        return price;
-    */
+    if (ifFinished) {
+        this->price=(price+((endDate-beginDate).minutes()+1)*driver->getVehiclePrice())*client->discount();
+        return 1.00* price;
+    }
 }
 
-void Drive::finishRide() {
-    this->endDate=boost::posix_time::second_clock::local_time();
-}
-
-string Drive::driveInfo()
-{
+string Drive::driveInfo() {
     stringstream tmp;
-    tmp << conductPrice();
-    return "Drive Info - Driver: " + driver->driverInfo() + " - Client: " + client->clientInfo() + " - Price: " + tmp.str();
+    if(ifFinished) {
+        tmp << price;
+        return "Drive Info - Driver: " + driver->driverInfo() + " - Client: " + client->clientInfo() + " - Status: finished - Price: " + tmp.str();
+    }
+    if(!ifFinished) {
+        tmp << conductPrice();
+        return "Drive Info - Driver: " + driver->driverInfo() + " - Client: " + client->clientInfo() + " - Status: ongoing - Price: " + tmp.str();
+    }
 }
 
 Client_ptr Drive::getClient() {
@@ -57,4 +53,13 @@ Client_ptr Drive::getClient() {
 
 Driver_ptr Drive::getDriver() {
     return this->driver;
+}
+
+void Drive::finishRide() {
+    this->endDate = boost::posix_time::second_clock::local_time();
+    this->ifFinished = true;
+}
+
+bool Drive::isIfFinished() {
+    return this->ifFinished;
 }
